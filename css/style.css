@@ -1,0 +1,113 @@
+body {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url(../img/BG1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Balthazar', serif;
+}
+
+.left {
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    left: 54px;
+}
+
+.mid {
+    display: block;
+    margin: 33px auto;
+    width: 46%;
+}
+
+.right {
+    position: absolute;
+    display: inline-block;
+    top: 45px;
+    right: 34px;
+    font-size: 26px;
+}
+
+.navBar {
+    display: inline-block;
+    list-style: none;
+}
+
+.navBar li {
+    display: inline-block;
+    font-size: 14px;
+}
+
+.navBar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 20px;
+    font-size: 26px;
+}
+
+.navBar li a:hover,
+.navBar li a.active {
+    color: rgb(133, 133, 133);
+    text-decoration: underline;
+    padding: 34px 20px;
+}
+
+.left img {
+    width: 55px;
+    filter: invert(100%);
+}
+
+.left div {
+    text-align: center;
+    font-size: 12px;
+    line-height: 13px;
+    font-size: 14px;
+}
+
+.btn {
+    margin: 0px 10px;
+    color: white;
+    background-color: rgb(52 52 52);
+    padding: 7PX 14px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Balthazar', serif;
+    font-size: 19px;
+}
+
+.btn:hover {
+    background-color: #5f5f5f;
+}
+
+.container {
+    margin: 106px 80px;
+    padding: 75px;
+    width: 33%;
+    border-radius: 15px;
+}
+
+.form input {
+    text-align: center;
+    display: block;
+    width: 376px;
+    padding: 8px;
+    border: 2px solid black;
+    border-radius: 25px;
+    margin: 5px auto;
+    font-family: 'Balthazar', serif;
+    font-size: 18px;
+}
+
+.container h1 {
+    text-align: center;
+    color: rgb(94, 94, 94);
+}
+
+.container button {
+    display: block;
+    width: 79%;
+    margin: 6px auto;
+    padding: 8px 8px;
+    border-radius: 25px;
+}
